@@ -1,0 +1,297 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5%;
+    font-family: 'Orelega One', cursive;
+  }
+  .boton_1{
+  text-decoration: none;
+  padding: 2%;
+  margin-left: 9%;
+  position: absolute;
+  width: 14%;
+  height: 24%;
+  text-align: center;
+  font-family: 'Orelega One', cursive;
+  text-transform: uppercase;
+  padding-left: 1%;
+  padding-right: 0.3%;
+  font-weight: 800;
+  font-size: 25px;
+  color: black;
+  background-color: #ffffff;
+  }
+  .boton_1:hover{
+  color: #ffffff;
+  background-color: #ffffff;
+  text-decoration: none;
+  }
+  
+  .boton_2{
+    text-decoration: none;
+    padding: 3%;
+    margin-left: 50%;
+    position: absolute;
+    width: 15%;
+    height: 22%;
+    text-align: center;
+    font-family: 'Orelega One', cursive;;
+    text-transform: uppercase;
+    padding-left: 1%;
+    padding-right: 0.3%;
+    font-weight: 800;
+    font-size: 25px;
+    color: black;
+    background-color: #ffffff;
+  }
+  .boton_2:hover{
+    color: #ffffff;
+    background-color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .boton_3{
+    text-decoration: none;
+    padding: 4%;
+    margin-left: 9%;
+    margin-top: 20%;
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    text-align: center;
+    font-family: 'Orelega One', cursive;;
+    text-transform: uppercase;
+    padding-left: 1%;
+    padding-right: 0.3%;
+    font-weight: 800;
+    font-size: 25px;
+    color: black;
+    background-color: #ffffff;
+    text-decoration: none;
+  }
+  .boton_3:hover{
+    color: #ffffff;
+    background-color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .boton_4{
+    text-decoration: none;
+    padding: 3%;
+    margin-left: 49%;
+    margin-top: 20%;
+    position: absolute;
+    width: 15%;
+    height: 22%;
+    text-align: center;
+    font-family: 'Orelega One', cursive;;
+    text-transform: uppercase;
+    padding-left: 1%;
+    padding-right: 0.3%;
+    font-weight: 800;
+    font-size: 25px;
+    color: black;
+    background-color: #ffffff;
+  }
+  .boton_4:hover{
+    color: #ffffff;
+    background-color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .Apptexto1{
+    text-align: justify;
+    margin-left: 26%;
+    margin-right: 55%;
+    font-family: 'Orelega One', cursive;
+    font-size: 75%;
+    position: absolute;
+    margin-top: -2%;
+  }
+  
+  .Apptexto3{
+    text-align: justify;
+    margin-left: 26%;
+    margin-right: 54%;
+    margin-top: 17%;
+    font-family: 'Orelega One', cursive;
+    font-size: 75%;
+    position: absolute;
+  }
+  
+  .Apptexto2{
+    text-align: justify;
+    margin-left: 68%;
+    margin-right: 11%;
+    font-family: 'Orelega One', cursive;
+    font-size: 75%;
+    position: absolute;
+    margin-top: -2%;
+  }
+  
+  .Apptexto4{
+    text-align: justify;
+    margin-left: 68%;
+    margin-right: 11%;
+    margin-top: 19%;
+    font-family: 'Orelega One', cursive;
+    font-size: 75%;
+    position: absolute;
+  }
+  
+  .boton.tres{
+    margin-left: 29%;
+    margin-top: 43%;
+    display: inline-flex;
+    width: 13%;
+    height: 50px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orelega One', cursive;
+    background: #000000;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .boton.tres span{
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+  }
+  
+  .boton.tres::after{
+    content: "";
+    width: 100%;
+    height: 300px;
+    background: #82b085;
+    position: absolute;
+    z-index: 1;
+    top: -300px;
+    left: 0;
+    transition: .3s ease-in-out all;
+    border-radius: 0px 0px 300px 300px;
+  }
+  
+  .boton.tres:hover::after{
+    top: 0;
+  }
+  /* cuarto boton volver*/
+  .boton.cuatro{
+    margin-left: 10%;
+    margin-top: 8%;
+    display: inline-flex;
+    width: 13%;
+    height: 50px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orelega One', cursive;
+    background: #000000;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .boton.cuatro span{
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+  }
+  
+  .boton.cuatro::after{
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    top: 55%;
+    left: 55.6%;
+    transition: .3s ease-in-out all;
+    border-radius: 100px;
+    transform-origin: center;
+  }
+  
+  /*.boton.cuatro:hover::after{
+    transform: scale(90);
+    background: #e5230d;
+    
+  }*/
+  .boton.cuatro:hover{
+    background: #aa1a0a;
+  }
+  
+  
+  
+  .app1{
+    height: 120%;
+    margin-top: -13%;
+    margin-left: -8%;
+    
+  }
+  .app1 {
+    transition: transform .2s; 
+  }
+  
+  .app1:hover {
+    transform: scale(1.2); 
+  }
+  
+  .app2{
+    height: 140%;
+    margin-top: -13%;
+    margin-left: -8%;
+    
+  }
+  .app2 {
+    transition: transform .2s; 
+  }
+  
+  .app2:hover {
+    transform: scale(1.2); 
+  }
+  
+  .app3{
+    height: 150%;
+    margin-top: -13%;
+    margin-left: -8%;
+    
+  }
+  .app3 {
+    transition: transform .2s; 
+  }
+  
+  .app3:hover {
+    transform: scale(1.2); 
+  }
+  
+  .app4{
+    height: 140%;
+    margin-top: -13%;
+    margin-left: -8%;
+    
+  }
+  .app4 {
+    transition: transform .2s; 
+  }
+  
+  .app4:hover {
+    transform: scale(1.2); 
+  }
+  a{
+    text-decoration: none;
+  }

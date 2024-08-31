@@ -1,0 +1,166 @@
+h1{
+    margin-top: 5% ;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+  }
+  
+  div.two{
+  text-align: justify;
+  margin-left: 8%;
+  margin-right: 8%;
+  font-family: 'Orelega One', cursive;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 30px;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .boton_1{
+    text-decoration: none;
+    padding: 3%;
+    margin-left: 11%;
+    position: absolute;
+    width: 15%;
+    height: 24%;
+    text-align: center;
+    font-family: 'Orelega One', cursive;
+    text-transform: uppercase;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-weight: 800px;
+    font-size: 25px;
+    color: black;
+    background-color: #ffffff;
+  }
+  .boton_1:hover{
+    color: #ffffff;
+    background-color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /*.boton_2{
+    text-decoration: none;
+    padding: 3px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 650px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Orelega One', cursive;
+    font-weight: 300;
+    font-size: 40px;
+    font-style: italic;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double #006505;
+  }
+  .boton_2:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+  */
+  .boton_3{
+    text-decoration: none;
+    padding: 3%;
+    margin-left: 70%;
+    position: absolute;
+    width: 234px;
+    height: 185px;
+    text-align: center;
+    font-family: 'Orelega One', cursive;
+    text-transform: uppercase;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-weight: 800px;
+    font-size: 25px;
+    color: black;
+    background-color: #ffffff;
+  }
+  
+  
+  .boton.tres{
+    margin-left: 43%;
+    margin-top: 20%;
+    display: inline-flex;
+    width: 13%;
+    height: 50px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orelega One', cursive;
+    background: #000000;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .boton.tres span{
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+  }
+  
+  .boton.tres::after{
+    content: "";
+    width: 100%;
+    height: 300px;
+    background: #82b085;
+    position: absolute;
+    z-index: 1;
+    top: -300px;
+    left: 0;
+    transition: .3s ease-in-out all;
+    border-radius: 0px 0px 300px 300px;
+  }
+  
+  .boton.tres:hover::after{
+    top: 0;
+  }
+  
+  .intentoapp{
+  height: 143%;
+  margin-top: -14%;
+  margin-left: -3%;
+  
+  }
+  .intentoapp {
+  transition: transform .2s; 
+  }
+  
+  .intentoapp:hover {
+  transform: scale(1.2); 
+  }
+  
+  .flecha{
+  width: 20%;
+  
+  position: absolute;
+  margin-top: -1.3%;
+  margin-left: -17%;
+  
+  }
+  
+  .intentoinformacion{
+    height: 110%;
+    margin-top: -16%;
+    margin-left: -18%;
+    
+  }
+  .intentoinformacion {
+    transition: transform .2s; 
+  }
+  
+  .intentoinformacion:hover {
+    transform: scale(1.2); 
+  }
+  a{
+    text-decoration: none;
+  }
